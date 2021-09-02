@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>fitgym</title>
+  
+  <!-- google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- font aweasome -->
+  <script src="https://kit.fontawesome.com/1cd90f6f02.js" crossorigin="anonymous"></script>
+  <!-- bootstrap links   -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- my css style sheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Navbar -->
+    <div class="container-fluid my-nav">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <h1 class="navbar-brand text-light" href="#">FITGYM</h1>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#footer">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#cta">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ELEMENTS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#pricing">ClASSES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="btn btn-warning btn-md">JOIN OUR CLUB</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- heading -->
+      <div class="main-title">
+        <h1 class="main-heading">NO PAIN . NO GAIN</h1>
+        <h3 class="main-subheading">PERFECT & FIT BODY</h3>
+        <p class="main-para">WATCH INSTRUCTIONS</p>
+      </div>
+  </section>
+
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row price-card" style="width: 20rem;">
+            <span class="col-sm-6 price-details">
+              <h3>BODY BUILDING</h3>
+              <p>From: $30/DAY</p>
+            </span>
+            <span class="col-sm-6">
+              <img src="./src/images/priceCard1.png" class="price-img" alt="...">
+            </span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row price-card" style="width: 20rem;">
+            <span class="col-sm-6 price-details">
+              <h3>YOGA FITNESS</h3>
+              <p>From: $30/DAY</p>
+            </span>
+            <span class="col-sm-6">
+              <img src="./src/images/priceCard2.png" class="price-img" alt="...">
+            </span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row price-card" style="width: 20rem;">
+            <span class="col-sm-6 price-details">
+              <h3>CROSS FITNESS</h3>
+              <p>From: $30/DAY</p>
+            </span>
+              <span class="col-sm-6">
+              <img src="./src/images/priceCard3.png" class="price-img" alt="...">
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <!-- Introduction -->
+
+  <section id="introduction">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./src/images/heavylifting.png">
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>WHO WE ARE</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="./src/logos/atom.png" class="intro-logo">
+              <h5>MORDERN EQUIPMENTS</h5>
+              <p>
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              </p> 
+            </div>  
+            <div class="col-lg-6">
+              <img src="./src/logos/mountain.png" class="intro-logo">
+              <h5>PROPER DIET PLAN</h5>
+              <p>
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              </p>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coaches details -->
+
+  <section id="coach">
+    <div class="container coach-content">
+      <h1 class="coach-title">MEET OUR COACHES</h1>
+      <div class="row coatch-details-row">
+        <div class="col-md-3">
+          <img src="./src/images/ryan.png" class="coach-img">
+          <div class="coach-details">
+            <h3 class="coach-name">RYAN JACKSON</h3>
+            <h5 class="coach-exp">CROSSFIT</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="./src/images/emily.png" class="coach-img">
+          <div class="coach-details">
+            <h3>EMILY PERKINS</h3>
+            <h5>FITNESS</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="./src/images/austin2.png" class="coach-img">
+          <div class="coach-details">
+            <h3>AUSTIN ORITZ</h3>
+            <h5>BODYBUILDING</h5>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="./src/images/semantha.png" class="coach-img">
+          <div class="coach-details">
+            <h3>SAMANTHA RUIZ</h3>
+            <h5>YOGA</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Blog -->
+
+  <section id="blog">
+    <div class="container blogs-content">
+      <h1>Blog & News</h1>
+      <p>update with us.<a href="">See More News</a></p>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card" style="width: 20rem;">
+            <div class="card-img-top card-img-1">
+              <div class="news-date">
+                <h3>17</h3>
+                <p>oct 2018</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">5 Elements that Belong To Every Athlete's</h5>
+              <a href="#" class="card-link"><img class="card-logo" src="./src/logos/bell.png">By admin</a>
+              <a href="#" class="card-link"><img class="card-logo" src="./src/logos/comment.png">comments</a>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="width: 20rem;">
+            <div class="card-img-top card-img-2">
+              <div class="news-date">
+                <h3>17</h3>
+                <p>oct 2018</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">5 Elements that Belong To Every Athlete's</h5>
+              <a href="#" class="card-link"><img class="card-logo" src="./src/logos/bell.png">By admin</a>
+              <a href="#" class="card-link"><img class="card-logo" src="./src/logos/comment.png">comments</a>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="width: 20rem;">
+            <div class="card-img-top card-img-3">
+              <div class="news-date">
+                <h3>17</h3>
+                <p>oct 2018</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">5 Elements that Belong To Every Athlete's</h5>
+              <a href="#" class="card-link"><img class="card-logo" src="./src/logos/bell.png">By admin</a>
+              <a href="#" class="card-link"><img class="card-logo" src="./src/logos/comment.png">comments</a>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--   random images -->
+  <section id="randomGymImg">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./src/images/gymImg1.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg2.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg3.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg4.jpg" class="gymimg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./src/images/gymImg5.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg6.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg7.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg8.jpg" class="gymimg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./src/images/gymImg9.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg10.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg11.jpg" class="gymimg" alt="...">
+          <img src="./src/images/gymImg12.jpg" class="gymimg" alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Other Details -->
+
+  <section id="details">
+    <div class="container">
+      <div class="row details-list">
+        <div class="col-md-4">
+           <ul>
+             <li class="details-header">EXPLORE</li>
+             <li>Home</li>
+             <li>Make An Appointment</li>
+             <li>Blog</li>
+             <li>Style Showcase</li>
+             <li>pricing</li>
+           </ul>   
+        </div>
+        <div class="col-md-4">
+          <ul>
+             <li class="details-header">SERVICES</li>
+             <li>Our Location</li>
+             <li>Opening Hours</li>
+             <li>Phone Number</li>
+             <li>Email Address</li>
+             <li>Body Trimming</li>
+             <li>opening Hours</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+             <li class="details-header">CLASSES</li> 
+             <li>BODY BUILDING</li>
+             <li>Yoga Fitness</li>
+             <li>Cross Fitness</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <span class="footer-copy">© 2018 Fitgym All Rights Reserved </span>
+    <span class="social-links"> 
+      <a href=""><img class="social-logo" src="./src/logos/facebook.png"></a>
+      <a href=""><img class="social-logo" src="./src/logos/twitter.png"></a>
+      <a href=""><img class="social-logo" src="./src/logos/instagram-logo.png"></a>
+      <a href=""><img class="social-logo" src="./src/logos/youtube.png"></a>
+    </span>
+  </footer>
+
+
+</body>
+
+</html>

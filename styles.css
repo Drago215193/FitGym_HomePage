@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+}
+
+body{
+	margin: 0;
+}
+/*+=================================================TITLE=====================================*/
+#title{
+	position: relative;
+	margin: 0;
+	background-image: url("./src/images/mainWall.jpg");
+	width: 100%;
+	height: 750px;
+	background-position: center; 
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.my-nav{
+	padding:2.5% 10%; 
+}
+
+
+
+.main-title{
+	text-align: center;
+	align-content: center;
+	margin-top: 150px;
+}
+.main-heading{
+	color: #fff;
+	font-weight: 900;
+	font-size: 6rem;
+}
+
+.main-subheading{
+	color: #121013;
+	font-weight: 200;
+	font-size: 3rem;
+	background-color:#ffe227;
+	margin-left: 20%;
+	margin-right: 20%;  
+}
+
+/*===========================================Pricing============================*/
+#pricing{
+	margin: 0;
+	background-color: #121013;
+	position: relative;
+}
+
+.price-card{
+	background: linear-gradient(105deg,#fff 70%,#ffe227 32%);
+	border-radius: 2%;
+	padding: 1%;
+	position: relative;
+	top: -100px;
+}
+
+.price-img{
+	height: 200px;
+	width: 150px;
+	position: relative;
+	right: 15px;
+}
+
+.price-details{
+	padding-top: 50px;
+}
+
+
+/*==================================================Introduction=============================*/
+#introduction{
+	position: relative;
+	background-color: #121013; 
+}
+
+.intro-logo{
+	height: 50px;
+	width: 50px;
+	margin: 5%;
+}
+
+#introduction h2{
+	color: #ffe227;
+}
+
+#introduction h5{
+	color: #fff;
+}
+
+#introduction p{
+	color: grey;
+}
+
+/*===============================================Coaches==================================*/
+#coach{
+	margin: 0;
+	padding:0;
+	background:linear-gradient(175deg,#121013 50%,#ffe227 50.3%);
+	text-align: center;
+}
+
+.coach-title{
+	padding: 9%;
+	color: #ffe227;
+	font-size:4rem;
+}
+.coatch-details-row{
+	position: relative;
+	top: 10px;
+}
+
+.coach-img{
+	height: 350px;
+	width: 260px;
+}
+
+.coach-details{
+	background-color: #121013;
+	padding: 5%;
+}
+.coach-details h3{
+	color: #fff;
+}
+.coach-details h5{
+	color: #ffe227;
+}
+/*===============================================Blog And News==================================*/
+
+#blog{
+	width: 100%
+	margin:0;
+	align-content: center;
+	text-align: center;
+	padding: 7%;
+	background-color:#121013;
+}
+
+.blogs-content h1{
+	color: #ffe227;
+	font-weight: 600;
+	font-size:4rem;
+	margin-bottom: 10px;
+}
+.blogs-content p{
+	color: #121013;
+	font-weight: 300;
+	font-size:1.2rem;
+	margin-bottom: 40px;
+}
+
+.blogs-content p a{
+	color: #ffe227;
+}
+
+.card{
+	text-align: left;
+	color: black;
+}
+
+.card-img-1{
+	height: 240px;
+	width: 317px;
+	margin: 0;
+	background: linear-gradient(45deg,#ffcc5c 30%,transparent 20%), url(./src/images/cardImg1.jpg);
+	background-size: cover;
+}
+
+.card-img-2{
+	height: 240px;
+	width: 317px;
+	margin: 0;
+	background: linear-gradient(45deg,#ffcc5c 30%,transparent 20%), url(./src/images/cardImg2.jpg);
+	background-size: cover;
+}
+
+.card-img-3{
+	height: 240px;
+	width: 317px;
+	margin: 0;
+	background: linear-gradient(45deg,#ffcc5c 30%,transparent 20%), url(./src/images/cardImg3.jpg);
+	background-size: cover;
+}
+
+.news-date{
+	position: relative;
+	top: 150px;
+	left: 20px;
+	color: black;
+}
+
+.card-body{
+	padding: 15%;
+}
+
+.card-logo{
+	height:15px;
+	width:15px;
+	margin: 5px;
+}
+.card-link{
+	color: black;
+}
+
+/*===============================================Random Images==================================
+*/#randomGymImg{
+	width: 100%;
+	background-color:#121013; 
+}
+.gymimg{
+	height: 300px;
+	width: 24.7%;
+}
+/*==============================================Details======================================*/
+#details{
+  	width: 100%;
+  	background-color: #121013;
+  	padding: 5% 20%;
+  	margin: 0;
+  	text-align: center;
+}
+
+.details-header{
+	color: #ffe227;
+	text-align: left;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 15%;
+}
+
+.details-list{
+	color: #fff;
+	width: 100%;
+}
+.details-list ul{
+	list-style: none;
+	text-align: left;
+}
+
+
+/*==================================================Footer=======================================*/
+#footer{
+	height: 20%;
+	width: 100%;
+	margin: 0;
+	padding: 2.5% 10%;
+	background-color: yellow;
+	font-weight: 400;
+	color: grey;
+}
+
+footer .social-links{
+	margin-left:50%; 
+}
+.social-logo{
+	height:25px;
+	width:25px;
+	margin-left: 15px;
+}
